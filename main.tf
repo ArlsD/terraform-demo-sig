@@ -109,14 +109,14 @@ user_data = <<-EOF
    \ 
    ' /etc/nginx/nginx.conf
     
-    # Start Nginx service 
-    sudo systemctl start nginx
+   # Start Nginx service 
+   sudo systemctl start nginx
     
-    # Enable to start on boot
-    sudo systemctl enable nginx
+   # Enable to start on boot
+   sudo systemctl enable nginx
     
-    # Run the Nginx Docker container
-    sudo docker run -d -p 80:80 nginx
+   # Run the Nginx Docker container
+   sudo docker run -d -p 80:80 nginx
   EOF
 }
 
