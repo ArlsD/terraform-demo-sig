@@ -19,7 +19,7 @@ phases:
       - "cd ${CODEBUILD_SRC_DIR}/${CODE_SRC_DIR}"
       - "terraform init"
       - "echo ## TERRAFORM PLAN : Strated with terraform apply"
-      - "terraform plan -input=false tfapply"
+      - "terraform plan -input=false"
 
 artifacts:
   files: 

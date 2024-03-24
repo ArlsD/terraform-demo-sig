@@ -4,7 +4,6 @@ terraform {
     key                         = "terraform.tfstate"
     region                      = "ap-south-1"
     encrypt                     = "true"
-    skip_credentials_validation = "true"
   }
 }
 
