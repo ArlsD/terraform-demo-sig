@@ -8,7 +8,7 @@ env:
 phases:
   install: 
     runtime-versions: 
-      python: "3.9"
+      python: "3.12"
     commands:
       - "yum install -y yum-utils shadow-utils"
       - "yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo"
