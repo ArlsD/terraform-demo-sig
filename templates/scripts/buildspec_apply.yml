@@ -20,6 +20,8 @@ phases:
       - "terraform init"
       - "echo ## TERRAFORM PLAN : Strated with terraform apply"
       - "terraform plan -input=false"
+      - "echo ## TERRAFORM APPLY : Applying the Terraform changes"
+      - "terraform apply -auto-approve"
 
 artifacts:
   files: 
