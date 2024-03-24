@@ -3,7 +3,7 @@ terraform {
     bucket                      = "tf-demo-sig"
     key                         = "terraform.tfstate"
     region                      = "ap-south-1"
-    encrpt                      = "true"
+    encrypt                     = "true"
     skip_credentials_validation = "true"
   }
 }
