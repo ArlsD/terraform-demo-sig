@@ -1,5 +1,5 @@
 terraform {
-  backend "S3" {
+  backend "s3" {
     bucket     = "tf-demo-sig"
     key        = "terraform.tfstate"
     region     = "ap-south-1"
