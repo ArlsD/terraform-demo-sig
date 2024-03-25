@@ -22,3 +22,18 @@ variable "name" {
     description = "Name of EC2 instance"
     default     = "prod-instance"
 }
+
+variable "vpc" {
+  description  = "Name of vpc for EC2 instance"
+  default      = "vpc-07a0a05edf290a5f2"
+}
+
+variable "security_group_name" {
+  description = "Name of secgroup"
+  default     = "tf-my-ec2-sec-grp"
+}
+
+variable "subnet" {
+  description = "Name of subnet"
+  default     = "subnet-03368a95527b7c160"
+}
