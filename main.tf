@@ -41,3 +41,4 @@ resource "aws_instance" "demo_server" {
     create_before_destroy = true
   }            
 }
+
