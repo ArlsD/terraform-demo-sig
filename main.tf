@@ -93,4 +93,3 @@ output "ec2instance" {
 output "availability_zone" {
   value = aws_instance.prod-instance.availability_zone
 }
-
